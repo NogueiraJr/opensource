@@ -41,7 +41,7 @@ def insertionsort( aList ):
     aList[k] = tmp
 
 
-count = int(input("Informe quantidade: "))
+count = int(input("Informe aqui a quantidade: "))
 sort_list = []
 for i in range(count):
     sort_list.append(int(input("Informe numero: ")))
